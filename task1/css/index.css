@@ -1,0 +1,602 @@
+body
+{
+	background-color: #EDE4FF;
+}
+#header #nav1
+{
+	background-color: #D988B9;
+	font-size: 18px;
+	font-style: oblique;
+	position: fixed;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 18px;
+	width: 1530px;
+   z-index: 1;
+}
+#header .li
+{
+    padding-left: 70px;
+	 display: inline-block;
+	 font-weight: 10px;
+}
+#header a:hover
+{
+	text-decoration: none;
+   color: black;
+}
+#header a
+{
+	color: white;
+	text-decoration: none;
+}
+/*=============================================*/
+#home .div1
+{
+   width: 750px;
+   background-color: #EDE4FF;
+   height: 750px;
+   float: right;
+}
+#home .div1 .m1
+{
+	margin-top: 170px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50px;
+	margin-left:100px;
+	background-color: #D988B9;
+	float: left;
+}
+#home .div1 .m2
+{
+	margin-top: 200px;
+	height: 380px;
+	width: 400px;
+	border-radius: 100px 140px 140px 80px;
+	margin-left:150px;
+	background-color: #D988B9;
+	rotate: 20deg;
+}
+#home .div1 .m2 img
+{
+	rotate: -19deg;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 330px;
+	width: 330px;
+	border-radius: 50px;
+	border: 3px solid #555;
+}
+#home .div1 .m3
+{
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	margin-left: 200px;
+	background-color: #D988B9;
+}
+#home .div1 .m4
+{
+	margin-top: 360px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: #D988B9;
+	float: right;
+	margin-right:100px ;
+}
+#home .div2
+{
+   width: 500px;
+   height: 755px;
+   padding-left: 150px;
+}
+#home .name
+{
+	font-family:"Brush Script MT", cursive ;
+	font-size: 70px;
+	padding-left: 100px;
+	color: #D988B9;
+	margin-bottom: 0;
+	text-shadow: 3px 3px black;
+}
+#home .name_about
+{
+	font-size: 15px;
+	font-family: monospace;
+	text-align: justify;
+	color: #940B92;
+}
+#home #icons1
+{
+	padding-left: 20px;
+	font-size: 25px;
+	color:  #D988B9;
+	text-shadow: 2px 2px black;
+}
+/*===============================================*/
+#about .div
+{
+   background-color: #EDE4FF;
+}
+#about .div1 
+{
+    height: 720px;
+    float: right;
+    width: 500px;
+}
+#about .div2 
+{
+    height: 720px;
+    width: 500px;
+    float: right;
+}
+#about .div3 
+{
+    height: 720px;
+    width: 500px;
+}
+#about .name
+{
+	font-family:"Brush Script MT", cursive ;
+	font-size: 70px;
+	padding-left: 100px;
+	color: #D988B9;
+	text-shadow: 3px 3px black;
+	margin-bottom: 0;
+}
+#about .ul1 
+{
+	padding-top: 290px;
+	list-style: none;
+}
+#about .ul2 
+{
+	padding-top: 60px;
+	list-style: none;
+}
+#about .ul3 
+{
+	padding-top: 310px;
+	list-style: none;
+}
+strong
+{
+	color: #B0578D;
+	font-size: 30px;
+	font-family: "Brush Script MT", cursive;
+}
+i
+{
+	font-family: serif;
+	font-size: 20px;
+}
+/*====================================================*/
+#skills .div
+{
+   height: 680px;
+   background-color: #EDE4FF;
+}
+#skills .div1
+{
+   width: 450px;
+   height: 680px;
+   float: left;
+   padding-left: 70px;
+}
+#skills .div2
+{
+   width: 450px;
+   height: 680px;
+   float: left;
+   margin-left: 60px;
+}
+#skills .div3
+{
+    width: 430px;
+    height: 680px;
+    float: right;
+}
+#skills .name
+{
+   font-family:"Brush Script MT", cursive ;
+	font-size: 70px;
+	padding-left: 70px;
+	color: #D988B9;
+	text-shadow: 3px 3px black;
+	margin-bottom: 0;
+	padding-top: 60px;
+}
+#skills .container
+{
+	 background-color: rgb(192, 192, 192); 
+    width: 100%; 
+    border-radius: 15px; 
+    width: 300px;
+}
+#skills .container .html 
+{
+	color: white;
+	background-color: #D988B9;
+	width: 100%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div1 .p1
+{
+	padding-top: 290px;
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+#skills .container .css
+{
+	color: white;
+	background-color: #D988B9;
+	width: 100%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div1 .p2
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+#skills .container .bootstrap
+{
+	color: white;
+	background-color: #D988B9;
+	width: 80%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div1 .p3
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+#skills .container .c
+{
+	color: white;
+	background-color: #D988B9;
+	width: 90%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div2 .p1
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+#skills .container .cpp
+{
+	color: white;
+	background-color: #D988B9;
+	width: 90%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div2 .p2
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+#skills .container .python
+{
+	color: white;
+	background-color: #D988B9;
+	width: 80%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div2 .p3
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+#skills .container .java
+{
+	color: white;
+	background-color: #D988B9;
+	width: 80%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div3 .p1
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+	padding-top: 290px;
+}
+#skills .container .php
+{
+	color: white;
+	background-color: #D988B9;
+	width: 60%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div3 .p2
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+#skills .container .js
+{
+	color: white;
+	background-color: #D988B9;
+	width: 70%;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+#skills .div3 .p3
+{
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	font-style: italic;
+}
+/*==================================================*/
+#resume .div
+{
+   height:700px;
+   background-color: #EDE4FF;
+}
+#resume .name
+{
+   font-family:"Brush Script MT", cursive ;
+	font-size: 70px;
+	color: #D988B9;
+	text-shadow: 3px 3px black;
+	margin-bottom: 0;
+	padding-left: 140px;
+}
+#resume .div1
+{
+	 width: 450px;
+    height:700px;
+    float: left;
+}
+#resume .div1 li
+{
+	list-style: none;
+}
+#resume .div1 .li
+{
+	list-style-type: square;
+	margin-left: 20px;
+}
+#resume .p
+{
+	font-family:"Brush Script MT", cursive ;
+	font-size: 35px;
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+}
+#resume strong
+{
+	color: black;
+	font-size: 18px;
+	font-family: cursive;
+}
+#resume  i
+{
+	font-size: 18px;
+}
+#resume .div2 div
+{
+	padding-left: 30px;
+}
+#resume .div2
+{
+	 width: 500px;
+    height: 700px;
+    float: left;
+}
+#resume .div3
+{
+	 width: 500px;
+    height: 700px;
+    float: right;
+}
+#resume .line 
+{
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #D988B9;
+  position: relative;
+}
+/*=======================================================*/
+#projects .div
+{
+   height: 730px;
+   background-color: #EDE4FF;
+}
+#projects .div .name
+{
+	font-family:"Brush Script MT", cursive ;
+	font-size: 60px;
+	color: #D988B9;
+	text-shadow: 3px 3px black;
+	padding-left: 650px;
+	padding-top: 50px;
+}
+#projects .div .overall
+{
+	height: 580px;
+	width: 1250px;
+	background-color: #D988B9;
+	margin-left: 120px;
+	margin-top: -50px;
+}
+#projects .div .div1
+{
+	height: 300px;
+}
+#projects .div .div2
+{
+	height: 300px;
+} 
+#projects .div .div1 .img1
+{
+	width: 415px;
+	height: 290px;
+	float: left;
+}
+#projects .div .div1 .img1 img
+{
+	height: 260px;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 8px;
+}
+#projects .div .div1 .img2
+{
+	width: 415px;
+	height: 290px;
+	float: left;
+}
+#projects .div .div1 .img2 img
+{
+	height: 260px;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 8px;
+}
+#projects .div .div1 .img3
+{
+	width: 415px;
+	height: 290px;
+	float: right;
+}
+#projects .div .div1 .img3 img
+{
+	height: 260px;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 8px;
+}
+#projects .div .div2 .img4
+{
+	width: 415px;
+	height: 290px;
+	float: left;
+}
+#projects .div .div2 .img4 img
+{
+	height: 260px;
+	width: 400px;
+	margin-left: 8px;
+}
+#projects .div .div2 .img5
+{
+	width: 415px;
+	height: 290px;
+	float: left;
+}
+#projects .div .div2 .img5 img
+{
+	height: 260px;
+	width: 400px;
+	margin-left: 8px;
+}
+#projects .div .div2 .img6
+{
+	width: 415px;
+	height:290px;	
+	float: right;
+}
+#projects .div .div2 .img6 img
+{
+	height: 260px;
+	width: 400px;
+	margin-left: 8px;
+}
+/*=======================================================*/
+#contact .div
+{
+   height: 680px;
+   background-color: #EDE4FF;
+}
+#contact .div1
+{
+	width: 650px;
+	height: 590px;
+	float: left;
+	margin-left: 30px;
+	padding-left: 40px;
+	background-color: #EDE4FF;
+	box-shadow: 0 0 24px 0 #D988B9;
+	margin-top: 50px;
+}
+#contact .div2
+{
+	width: 650px;
+	height: 590px;
+	float: right;
+	margin-left: 30px;
+	padding-left: 40px;
+	background-color: #EDE4FF;
+	box-shadow: 0 0 24px 0 #D988B9;
+	margin-top: 50px;
+}
+#contact .div1 iframe
+{
+	height: 300px;
+	width: 520px;
+}
+#contact .div1 .p1
+{
+	font-family:"Brush Script MT", cursive ;
+	color: #D988B9;
+	text-shadow: 1px 1px black;
+	padding: 0 0 0 60px;
+   font-size: 30px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+#contact .div1 .p2
+{
+	padding: 0 0 10px 60px;
+   margin-bottom: 5px;
+  font-size: 15px;
+  margin-top: 0px;
+  font-style: italic;
+}
+#contact .div1 i
+{
+  font-size: 25px;
+  color: #D988B9;
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+/*============================================*/
+.f
+{
+	height: 200px;
+	background-color: #B6BBC4;
+}
+.middle
+{
+	width: 300px;
+	width: 300px;
+	margin-left: 650px;
+	padding-left: 20px;
+	font-family: "Brush Script MT", cursive;
+	font-size: 25px;
+}
